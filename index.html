@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ghetto Dating Forms challenge</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Welcome to GHETTO DATING!</h1>
+	<form action="http://174.129.248.23/brainstation/files/submittingforms.php" method="POST">
+	<div class="form-group">
+		<label for="username">User name:</label>
+		<input type="text" name="user" id="user">
+	</div>
+	<div class="form-group">
+		<p>Gender:
+		<input type="radio" name="gender" id="gender-male"><label for="gender-male" value="M">Male</label>
+		<input type="radio" name="gender" id="gender-female" value="F"><label for="gender-female">Female</label>
+		</p>
+	</div>
+	<div class="form-group">
+		<label for="city">City:</label>
+		<select name="city" id="city">
+			<option value="Toronto">T-dot</option>
+			<option value="Waterloo">The 'Loo</option>
+			<option value="London">Forest City</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="bio">Biography:</label>
+		<textarea name="bio" id="bio" cols="50" rows="20"></textarea>
+	</div>
+	<div class="form-group">
+		<input type="checkbox" name="agree" id="agree"><label for="agree">I agree with the terms and conditions for Ghetto Dating</label>
+	</div>
+	<div class="form-group">
+		<input type="submit">
+	</div>
+	</form>
+</body>
+</html>
